@@ -21,7 +21,7 @@ from flask_jwt_extended import unset_jwt_cookies
 pymysql.install_as_MySQLdb()
 
 configuration = sib_api_v3_sdk.Configuration()
-configuration.api_key['api-key'] = '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'
+configuration.api_key['api-key'] = 'Insert_your_api_key'
 
 api_instance = sib_api_v3_sdk.TransactionalEmailsApi(sib_api_v3_sdk.ApiClient(configuration))
 
